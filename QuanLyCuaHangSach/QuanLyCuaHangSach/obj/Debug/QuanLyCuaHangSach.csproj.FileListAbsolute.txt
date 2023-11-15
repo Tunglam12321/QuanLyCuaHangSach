@@ -9,3 +9,7 @@ E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug
 E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.exe
 E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.pdb
 E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.BookShop.resources
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.Book.resources
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.Bills.resources
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.User.resources
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.Dashboard.resources

@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace QuanLyCuaHangSach
 {
-    public partial class BookShop : Form
+    public partial class Bills : Form
     {
-        public BookShop()
+        public Bills()
         {
             InitializeComponent();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
