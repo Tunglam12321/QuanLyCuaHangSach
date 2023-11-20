@@ -23,6 +23,7 @@ namespace QuanLyCuaHangSach
         SqlConnection con = new SqlConnection("server=ADMIN\\SLTP;" + "uid=tk1;pwd=1;" + "database = QL_Cua_Hang_Sach");
         SqlCommand cmd;
         SqlDataAdapter adapt;
+        int ID = 0;
 
         private void User_Load(object sender, EventArgs e)
         {
@@ -85,6 +86,39 @@ namespace QuanLyCuaHangSach
             txtPhone.Text = "";
             txtAddress.Text = "";
             txtPassword.Text = "";
+            ID = 0;
+        }
+
+        private void user_dgv_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            ID = Convert.ToInt32(user_dgv.Rows[e.RowIndex].Cells[0].Value.ToString());
+            txtUsername.Text = user_dgv.Rows[e.RowIndex].Cells[1].Value.ToString();
+            txtPhone.Text = user_dgv.Rows[e.RowIndex].Cells[2].Value.ToString();
+            txtAddress.Text = user_dgv.Rows[e.RowIndex].Cells[3].Value.ToString();
+            txtPassword.Text = user_dgv.Rows[e.RowIndex].Cells[4].Value.ToString();
+        }
+
+        private void edit_Click(object sender, EventArgs e)
+        {
+            if (txtUsername.Text != "" && txtPhone.Text != "" && txtAddress.Text != "" && txtPassword.Text != "")
+            {
+                cmd = new SqlCommand("update tblUser set Name=@name,Phone=@phone,Address=@address,Password=@password where IDuser=@id", con);
+                con.Open();
+                cmd.Parameters.AddWithValue("@id", ID);
+                cmd.Parameters.AddWithValue("@name", txtUsername.Text);
+                cmd.Parameters.AddWithValue("@phone", txtPhone.Text);
+                cmd.Parameters.AddWithValue("@address", txtAddress.Text);
+                cmd.Parameters.AddWithValue("@password", txtPassword.Text);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("Cập nhật thành công");
+                con.Close();
+                LoadDataGridView();
+                ClearData();
+            }
+            else
+            {
+                MessageBox.Show("Vui lòng chọn bản ghi để cập nhật");
+            }
         }
     }
 }

@@ -53,6 +53,7 @@
             this.user_dgv.Name = "user_dgv";
             this.user_dgv.Size = new System.Drawing.Size(829, 272);
             this.user_dgv.TabIndex = 45;
+            this.user_dgv.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.user_dgv_CellClick);
             // 
             // label9
             // 
@@ -103,6 +104,7 @@
             this.edit.TabIndex = 39;
             this.edit.Text = "Edit";
             this.edit.UseVisualStyleBackColor = false;
+            this.edit.Click += new System.EventHandler(this.edit_Click);
             // 
             // save
             // 
