@@ -120,5 +120,55 @@ namespace QuanLyCuaHangSach
                 MessageBox.Show("Vui lòng chọn bản ghi để cập nhật");
             }
         }
+
+        private void delete_Click(object sender, EventArgs e)
+        {
+            if (ID == 0)
+            {
+                MessageBox.Show("Vui lòng chọn bản ghi để xoá!");
+            }
+            else if (MessageBox.Show("Bạn có muốn xóa không?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+            {
+                cmd = new SqlCommand("delete tblUser where IDuser=@id", con);
+                con.Open();
+                cmd.Parameters.AddWithValue("@id", ID);
+                cmd.ExecuteNonQuery();
+                con.Close();
+                LoadDataGridView();
+                ClearData();
+            }
+        }
+
+        private void ChiNhapSo_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            // Kiểm tra nếu ký tự là số hoặc là phím Backspace (8)
+            if (char.IsDigit(e.KeyChar) || e.KeyChar == 8)
+            {
+                // Lấy chuỗi hiện tại từ TextBox
+                string currentText = txtPhone.Text;
+
+                // Kiểm tra độ dài sau khi thêm ký tự mới
+                if ((currentText.Length < 10) || e.KeyChar == 8)
+                {
+                    // Cho phép nhập ký tự
+                    e.Handled = false;
+                }
+                else
+                {
+                    // Ngăn chặn nhập ký tự mới nếu độ dài đã đạt đến 10
+                    e.Handled = true;
+                }
+            }
+            else
+            {
+                // Ngăn chặn nhập ký tự không phải số
+                e.Handled = true;
+            }
+        }
+
+        private void reset_Click(object sender, EventArgs e)
+        {
+            ClearData();
+        }
     }
 }
