@@ -5,15 +5,17 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
+using System.Net.NetworkInformation;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Linq;
 
 namespace QuanLyCuaHangSach
 {
-    public partial class User : Form
+    public partial class txtUser : Form
     {
-        public User()
+        public txtUser()
         {
             InitializeComponent();
         }
@@ -25,10 +27,10 @@ namespace QuanLyCuaHangSach
         private void User_Load(object sender, EventArgs e)
         {
             LoadDataGridView();
-            save.Enabled = false;
-            edit.Enabled = false;
-            delete.Enabled = false;
-            reset.Enabled = false;
+            //save.Enabled = false;
+            //edit.Enabled = false;
+            //delete.Enabled = false;
+            //reset.Enabled = false;
         }
 
         private void LoadDataGridView()
@@ -53,6 +55,36 @@ namespace QuanLyCuaHangSach
             con.Close();
 
             
+        }
+
+        private void save_Click(object sender, EventArgs e)
+        {
+            if (txtUsername.Text != "" && txtPhone.Text != "" && txtAddress.Text != "" && txtPassword.Text != "")
+            {
+                cmd = new SqlCommand("insert into tblUser(Name,Phone,Address,Password) values(@name,@phone,@address,@password)", con);
+                con.Open();
+                cmd.Parameters.AddWithValue("@name", txtUsername.Text);
+                cmd.Parameters.AddWithValue("@phone", txtPhone.Text);
+                cmd.Parameters.AddWithValue("@address", txtAddress.Text);
+                cmd.Parameters.AddWithValue("@password", txtPassword.Text);
+                cmd.ExecuteNonQuery();
+                con.Close();
+                MessageBox.Show("Lưu thông tin thành công !");
+                LoadDataGridView();
+                ClearData();
+            }
+            else
+            {   
+                MessageBox.Show("Vui lòng điền đầy đủ thông tin!");
+            }
+        }
+
+        private void ClearData()
+        {
+            txtUsername.Text = "";
+            txtPhone.Text = "";
+            txtAddress.Text = "";
+            txtPassword.Text = "";
         }
     }
 }

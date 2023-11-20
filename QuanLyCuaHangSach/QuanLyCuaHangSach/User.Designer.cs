@@ -1,6 +1,6 @@
 ﻿namespace QuanLyCuaHangSach
 {
-    partial class User
+    partial class txtUser
     {
         /// <summary>
         /// Required designer variable.
@@ -117,6 +117,7 @@
             this.save.TabIndex = 38;
             this.save.Text = "Save";
             this.save.UseVisualStyleBackColor = false;
+            this.save.Click += new System.EventHandler(this.save_Click);
             // 
             // txtAddress
             // 
@@ -198,7 +199,7 @@
             this.label1.TabIndex = 23;
             this.label1.Text = "USER";
             // 
-            // User
+            // txtUser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -218,7 +219,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "User";
+            this.Name = "txtUser";
             this.Text = "User";
             this.Load += new System.EventHandler(this.User_Load);
             ((System.ComponentModel.ISupportInitialize)(this.user_dgv)).EndInit();
