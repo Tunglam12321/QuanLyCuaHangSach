@@ -21,21 +21,17 @@ namespace QuanLyCuaHangSach
             InitializeComponent();
         }
         List<string> list = new List<string>();
+        List<int> totallist = new List<int>();
+        List<BookItem> bookitems = new List<BookItem>();
         private void loadform()
         {
             book_dgv.Rows.Clear();
             //Hiển thị các sách đã nhập
             string query = "select * from NhapSach";
             int total = 0;
-            foreach(DataGridViewRow dataGridView1 in bookbill_dgv.Rows)
+            foreach(int a in totallist)
             {
-                if (!dataGridView1.IsNewRow)
-                {
-                    int tam = 0;
-                    int.TryParse(dataGridView1.Cells["total"].Value.ToString(), out tam);
-                    total += tam;
-                }
-                
+                total += a;
             }
             label9.Text = total.ToString();
             using (SqlConnection connection = new SqlConnection(conn))
@@ -139,7 +135,10 @@ namespace QuanLyCuaHangSach
                         float total = (float)soluong * gia*(1-(float)saleoff/100);
                         bookbill_dgv.Rows.Add(n+1,title,gia,soluong,saleoff,total);
                         n++;
+                        totallist.Add((int)total);
                         UpdateBook();
+                        BookItem a=new BookItem(n+1,title,gia,soluong,saleoff,(int)total);
+                        bookitems.Add(a);
 
                     }
                 }
@@ -175,12 +174,15 @@ namespace QuanLyCuaHangSach
                 int quan = 0;
                 int row = bookbill_dgv.SelectedRows.Count;
                 string title = "";
-                if(row>0 )
+                int gia_item = 0;
+                if (row>0 )
                 {
                     DataGridViewRow dataGridViewRow = bookbill_dgv.SelectedRows[0];
                     string quanstr = dataGridViewRow.Cells["quantity"].Value.ToString();
                     int.TryParse(quanstr, out quan);
                     title = dataGridViewRow.Cells["book"].Value.ToString();
+                    int.TryParse(dataGridViewRow.Cells["total"].Value.ToString(),out gia_item);
+                    totallist.Remove(gia_item);
                 }
                 int number = 0;
                 string query = "select quantity from NhapSach where Booktitle=@booktitle";
@@ -211,6 +213,7 @@ namespace QuanLyCuaHangSach
                         if (resut > 0)
                         {
                             MessageBox.Show("Đã bỏ sản phẩm ra khỏi giỏ");
+                            
                             loadform();
                         }
                         else

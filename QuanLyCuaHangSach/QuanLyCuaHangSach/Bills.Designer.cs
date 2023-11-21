@@ -376,6 +376,7 @@
             // ID
             // 
             this.ID.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.ID.DataPropertyName = "ID";
             this.ID.HeaderText = "ID";
             this.ID.MinimumWidth = 6;
             this.ID.Name = "ID";
@@ -383,6 +384,7 @@
             // book
             // 
             this.book.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.book.DataPropertyName = "book";
             this.book.HeaderText = "Book";
             this.book.MinimumWidth = 6;
             this.book.Name = "book";
@@ -390,6 +392,7 @@
             // price
             // 
             this.price.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.price.DataPropertyName = "price";
             this.price.HeaderText = "Price";
             this.price.MinimumWidth = 6;
             this.price.Name = "price";
@@ -397,6 +400,7 @@
             // quantity
             // 
             this.quantity.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.quantity.DataPropertyName = "quantity";
             this.quantity.HeaderText = "Quantity";
             this.quantity.MinimumWidth = 6;
             this.quantity.Name = "quantity";
@@ -404,6 +408,7 @@
             // SaleOff
             // 
             this.SaleOff.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.SaleOff.DataPropertyName = "SaleOff";
             this.SaleOff.HeaderText = "SaleOff";
             this.SaleOff.MinimumWidth = 6;
             this.SaleOff.Name = "SaleOff";
@@ -411,6 +416,7 @@
             // total
             // 
             this.total.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.total.DataPropertyName = "total";
             this.total.HeaderText = "Total";
             this.total.MinimumWidth = 6;
             this.total.Name = "total";
@@ -419,7 +425,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1139, 635);
+            this.ClientSize = new System.Drawing.Size(1139, 644);
             this.Controls.Add(this.bookbill_dgv);
             this.Controls.Add(this.saleoff_bill);
             this.Controls.Add(this.label4);
