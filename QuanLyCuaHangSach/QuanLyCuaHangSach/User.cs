@@ -20,7 +20,7 @@ namespace QuanLyCuaHangSach
             InitializeComponent();
         }
 
-        SqlConnection con = new SqlConnection("server=ADMIN\\SLTP;" + "uid=tk1;pwd=1;" + "database = QL_Cua_Hang_Sach");
+        SqlConnection con = new SqlConnection(@"Data Source=MSI\SQLEXPRESS;Initial Catalog=QLCHS;User ID=minhtrong;Password=quynhon");
         SqlCommand cmd;
         SqlDataAdapter adapt;
         int ID = 0;
@@ -60,6 +60,14 @@ namespace QuanLyCuaHangSach
 
         private void save_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
+
+        }
+
+        private void user_dgv_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+=======
             if (txtUsername.Text != "" && txtPhone.Text != "" && txtAddress.Text != "" && txtPassword.Text != "")
             {
                 cmd = new SqlCommand("insert into tblUser(Name,Phone,Address,Password) values(@name,@phone,@address,@password)", con);
@@ -169,6 +177,7 @@ namespace QuanLyCuaHangSach
         private void reset_Click(object sender, EventArgs e)
         {
             ClearData();
+>>>>>>> 42d341059a293e58141427a7470ca8913a254ab7
         }
     }
 }

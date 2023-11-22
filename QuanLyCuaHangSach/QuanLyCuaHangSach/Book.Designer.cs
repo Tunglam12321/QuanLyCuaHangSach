@@ -141,7 +141,11 @@
             // booktitle
             // 
             this.booktitle.Location = new System.Drawing.Point(4, 128);
+<<<<<<< HEAD
             this.booktitle.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.booktitle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> 7d69125cb0c2f0f753ff92031701c517271eca23
             this.booktitle.Name = "booktitle";
             this.booktitle.Size = new System.Drawing.Size(132, 22);
             this.booktitle.TabIndex = 7;
@@ -149,32 +153,54 @@
             // author
             // 
             this.author.Location = new System.Drawing.Point(167, 128);
+<<<<<<< HEAD
             this.author.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.author.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> 7d69125cb0c2f0f753ff92031701c517271eca23
             this.author.Name = "author";
             this.author.Size = new System.Drawing.Size(132, 22);
             this.author.TabIndex = 8;
             // 
             // price_im
             // 
+<<<<<<< HEAD
             this.price_im.Location = new System.Drawing.Point(683, 128);
             this.price_im.Margin = new System.Windows.Forms.Padding(4);
             this.price_im.Name = "price_im";
             this.price_im.Size = new System.Drawing.Size(132, 22);
             this.price_im.TabIndex = 9;
+=======
+            this.textBox3.Location = new System.Drawing.Point(683, 128);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(132, 22);
+            this.textBox3.TabIndex = 9;
+>>>>>>> 7d69125cb0c2f0f753ff92031701c517271eca23
             // 
             // quantity
             // 
             this.quantity.Location = new System.Drawing.Point(520, 128);
+<<<<<<< HEAD
             this.quantity.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.quantity.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> 7d69125cb0c2f0f753ff92031701c517271eca23
             this.quantity.Name = "quantity";
             this.quantity.Size = new System.Drawing.Size(132, 22);
             this.quantity.TabIndex = 10;
             // 
             // dateTimePicker1
             // 
+<<<<<<< HEAD
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dateTimePicker1.Location = new System.Drawing.Point(1008, 128);
             this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker1.Location = new System.Drawing.Point(1008, 128);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> 7d69125cb0c2f0f753ff92031701c517271eca23
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(107, 22);
             this.dateTimePicker1.TabIndex = 11;
@@ -183,18 +209,30 @@
             // 
             this.categories_cb.FormattingEnabled = true;
             this.categories_cb.Location = new System.Drawing.Point(329, 128);
+<<<<<<< HEAD
             this.categories_cb.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.categories_cb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> 7d69125cb0c2f0f753ff92031701c517271eca23
             this.categories_cb.Name = "categories_cb";
             this.categories_cb.Size = new System.Drawing.Size(160, 24);
             this.categories_cb.TabIndex = 12;
             // 
             // store
             // 
+<<<<<<< HEAD
             this.store.Location = new System.Drawing.Point(845, 128);
             this.store.Margin = new System.Windows.Forms.Padding(4);
             this.store.Name = "store";
             this.store.Size = new System.Drawing.Size(132, 22);
             this.store.TabIndex = 14;
+=======
+            this.textBox5.Location = new System.Drawing.Point(845, 128);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(132, 22);
+            this.textBox5.TabIndex = 14;
+>>>>>>> 7d69125cb0c2f0f753ff92031701c517271eca23
             // 
             // label8
             // 
@@ -215,7 +253,11 @@
             this.save.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.save.ForeColor = System.Drawing.Color.White;
             this.save.Location = new System.Drawing.Point(17, 188);
+<<<<<<< HEAD
             this.save.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.save.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> 7d69125cb0c2f0f753ff92031701c517271eca23
             this.save.Name = "save";
             this.save.Size = new System.Drawing.Size(100, 33);
             this.save.TabIndex = 15;
@@ -230,7 +272,11 @@
             this.edit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.edit.ForeColor = System.Drawing.Color.White;
             this.edit.Location = new System.Drawing.Point(173, 188);
+<<<<<<< HEAD
             this.edit.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.edit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> 7d69125cb0c2f0f753ff92031701c517271eca23
             this.edit.Name = "edit";
             this.edit.Size = new System.Drawing.Size(100, 33);
             this.edit.TabIndex = 16;
@@ -245,7 +291,11 @@
             this.delete.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.delete.ForeColor = System.Drawing.Color.White;
             this.delete.Location = new System.Drawing.Point(329, 188);
+<<<<<<< HEAD
             this.delete.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.delete.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> 7d69125cb0c2f0f753ff92031701c517271eca23
             this.delete.Name = "delete";
             this.delete.Size = new System.Drawing.Size(100, 33);
             this.delete.TabIndex = 17;
@@ -260,7 +310,11 @@
             this.reset.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.reset.ForeColor = System.Drawing.Color.White;
             this.reset.Location = new System.Drawing.Point(485, 188);
+<<<<<<< HEAD
             this.reset.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.reset.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> 7d69125cb0c2f0f753ff92031701c517271eca23
             this.reset.Name = "reset";
             this.reset.Size = new System.Drawing.Size(100, 33);
             this.reset.TabIndex = 18;
@@ -284,7 +338,11 @@
             // 
             this.booklist_cb.FormattingEnabled = true;
             this.booklist_cb.Location = new System.Drawing.Point(203, 273);
+<<<<<<< HEAD
             this.booklist_cb.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.booklist_cb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> 7d69125cb0c2f0f753ff92031701c517271eca23
             this.booklist_cb.Name = "booklist_cb";
             this.booklist_cb.Size = new System.Drawing.Size(160, 24);
             this.booklist_cb.TabIndex = 20;
@@ -297,7 +355,11 @@
             this.refesh.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.refesh.ForeColor = System.Drawing.Color.White;
             this.refesh.Location = new System.Drawing.Point(393, 266);
+<<<<<<< HEAD
             this.refesh.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.refesh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> 7d69125cb0c2f0f753ff92031701c517271eca23
             this.refesh.Name = "refesh";
             this.refesh.Size = new System.Drawing.Size(100, 33);
             this.refesh.TabIndex = 21;
@@ -309,7 +371,11 @@
             // 
             this.book_dgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.book_dgv.Location = new System.Drawing.Point(16, 348);
+<<<<<<< HEAD
             this.book_dgv.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.book_dgv.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> 7d69125cb0c2f0f753ff92031701c517271eca23
             this.book_dgv.Name = "book_dgv";
             this.book_dgv.RowHeadersWidth = 51;
             this.book_dgv.Size = new System.Drawing.Size(1105, 282);
@@ -319,7 +385,11 @@
             // price_sell
             // 
             this.price_sell.Location = new System.Drawing.Point(683, 245);
+<<<<<<< HEAD
             this.price_sell.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.price_sell.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> 7d69125cb0c2f0f753ff92031701c517271eca23
             this.price_sell.Name = "price_sell";
             this.price_sell.Size = new System.Drawing.Size(132, 22);
             this.price_sell.TabIndex = 24;
@@ -338,7 +408,11 @@
             // NXB
             // 
             this.NXB.Location = new System.Drawing.Point(845, 245);
+<<<<<<< HEAD
             this.NXB.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.NXB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> 7d69125cb0c2f0f753ff92031701c517271eca23
             this.NXB.Name = "NXB";
             this.NXB.Size = new System.Drawing.Size(132, 22);
             this.NXB.TabIndex = 26;
@@ -367,8 +441,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(1137, 582);
             this.Controls.Add(this.id_lb);
+=======
+            this.ClientSize = new System.Drawing.Size(1137, 633);
+>>>>>>> 7d69125cb0c2f0f753ff92031701c517271eca23
             this.Controls.Add(this.NXB);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.price_sell);
@@ -396,7 +474,11 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+<<<<<<< HEAD
             this.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> 7d69125cb0c2f0f753ff92031701c517271eca23
             this.Name = "Book";
             this.Text = "Book";
             this.Load += new System.EventHandler(this.Book_Load);

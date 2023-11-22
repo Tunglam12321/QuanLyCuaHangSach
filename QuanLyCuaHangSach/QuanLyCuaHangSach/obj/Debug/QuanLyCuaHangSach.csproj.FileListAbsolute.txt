@@ -26,7 +26,26 @@ D:\Quan-ly-cua-hang-sach\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\o
 D:\Quan-ly-cua-hang-sach\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\QuanLyCuaHangSach.exe.config
 D:\Quan-ly-cua-hang-sach\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\QuanLyCuaHangSach.exe
 D:\Quan-ly-cua-hang-sach\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\QuanLyCuaHangSach.pdb
+<<<<<<< HEAD
+C:\Users\TRONG\OneDrive\Desktop\tieuluan\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\QuanLyCuaHangSach.exe.config
+C:\Users\TRONG\OneDrive\Desktop\tieuluan\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\QuanLyCuaHangSach.exe
+C:\Users\TRONG\OneDrive\Desktop\tieuluan\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\QuanLyCuaHangSach.pdb
+C:\Users\TRONG\OneDrive\Desktop\tieuluan\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.csproj.AssemblyReference.cache
+C:\Users\TRONG\OneDrive\Desktop\tieuluan\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.csproj.SuggestedBindingRedirects.cache
+C:\Users\TRONG\OneDrive\Desktop\tieuluan\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.Bills.resources
+C:\Users\TRONG\OneDrive\Desktop\tieuluan\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.Book.resources
+C:\Users\TRONG\OneDrive\Desktop\tieuluan\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.Dashboard.resources
+C:\Users\TRONG\OneDrive\Desktop\tieuluan\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.BookShop.resources
+C:\Users\TRONG\OneDrive\Desktop\tieuluan\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.Properties.Resources.resources
+C:\Users\TRONG\OneDrive\Desktop\tieuluan\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.User.resources
+C:\Users\TRONG\OneDrive\Desktop\tieuluan\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.csproj.GenerateResource.cache
+C:\Users\TRONG\OneDrive\Desktop\tieuluan\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.csproj.CoreCompileInputs.cache
+C:\Users\TRONG\OneDrive\Desktop\tieuluan\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.exe
+C:\Users\TRONG\OneDrive\Desktop\tieuluan\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.pdb
+C:\Users\TRONG\OneDrive\Desktop\tieuluan\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.Timkiem.resources
+=======
 D:\Quan-ly-cua-hang-sach\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.txtUser.resources
+<<<<<<< HEAD
 E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.txtUser.resources
 E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
 E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\CrystalDecisions.ReportSource.dll
@@ -84,3 +103,6 @@ E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug
 E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
 E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
 E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+=======
+>>>>>>> 42d341059a293e58141427a7470ca8913a254ab7
+>>>>>>> 7d69125cb0c2f0f753ff92031701c517271eca23
