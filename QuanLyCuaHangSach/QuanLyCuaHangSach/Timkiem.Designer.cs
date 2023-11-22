@@ -53,7 +53,7 @@
             // 
             // tb_timkiem
             // 
-            this.tb_timkiem.Location = new System.Drawing.Point(564, 63);
+            this.tb_timkiem.Location = new System.Drawing.Point(568, 72);
             this.tb_timkiem.Name = "tb_timkiem";
             this.tb_timkiem.Size = new System.Drawing.Size(155, 22);
             this.tb_timkiem.TabIndex = 1;
@@ -75,7 +75,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(150, 23);
             this.button1.TabIndex = 3;
-            this.button1.Text = "Tìm Kiếm User";
+            this.button1.Text = "Tìm Kiếm Book";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -96,7 +96,7 @@
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.RowTemplate.Height = 24;
-            this.dataGridView2.Size = new System.Drawing.Size(1167, 339);
+            this.dataGridView2.Size = new System.Drawing.Size(1167, 366);
             this.dataGridView2.TabIndex = 5;
             // 
             // button2

@@ -21,5 +21,15 @@ namespace QuanLyCuaHangSach
         {
 
         }
+
+        private void addtobill_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void print_bill_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

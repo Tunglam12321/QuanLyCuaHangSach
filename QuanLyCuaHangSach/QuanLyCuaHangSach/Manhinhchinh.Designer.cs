@@ -35,48 +35,54 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.logout = new System.Windows.Forms.Button();
-            this.dashboard = new System.Windows.Forms.Button();
+            this.Bills = new System.Windows.Forms.Button();
             this.user = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.book = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.AutoSize = true;
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.panel1.Controls.Add(this.pictureBox6);
             this.panel1.Controls.Add(this.pictureBox5);
+            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.pictureBox4);
             this.panel1.Controls.Add(this.pictureBox3);
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Controls.Add(this.logout);
-            this.panel1.Controls.Add(this.dashboard);
+            this.panel1.Controls.Add(this.Bills);
             this.panel1.Controls.Add(this.user);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.book);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 567);
+            this.panel1.Size = new System.Drawing.Size(202, 567);
             this.panel1.TabIndex = 0;
             // 
             // pictureBox5
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(3, 373);
+            this.pictureBox5.Location = new System.Drawing.Point(3, 477);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(47, 45);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 8;
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // pictureBox4
             // 
@@ -119,7 +125,7 @@
             this.logout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.logout.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.logout.ForeColor = System.Drawing.Color.White;
-            this.logout.Location = new System.Drawing.Point(-1, 350);
+            this.logout.Location = new System.Drawing.Point(-8, 454);
             this.logout.Name = "logout";
             this.logout.Size = new System.Drawing.Size(197, 86);
             this.logout.TabIndex = 4;
@@ -127,21 +133,21 @@
             this.logout.UseVisualStyleBackColor = false;
             this.logout.Click += new System.EventHandler(this.changeColor_Click);
             // 
-            // dashboard
+            // Bills
             // 
-            this.dashboard.BackColor = System.Drawing.Color.Transparent;
-            this.dashboard.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.dashboard.FlatAppearance.BorderSize = 0;
-            this.dashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.dashboard.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dashboard.ForeColor = System.Drawing.Color.White;
-            this.dashboard.Location = new System.Drawing.Point(-1, 266);
-            this.dashboard.Name = "dashboard";
-            this.dashboard.Size = new System.Drawing.Size(197, 86);
-            this.dashboard.TabIndex = 3;
-            this.dashboard.Text = "          Dashboard";
-            this.dashboard.UseVisualStyleBackColor = false;
-            this.dashboard.Click += new System.EventHandler(this.changeColor_Click);
+            this.Bills.BackColor = System.Drawing.Color.Transparent;
+            this.Bills.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Bills.FlatAppearance.BorderSize = 0;
+            this.Bills.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Bills.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Bills.ForeColor = System.Drawing.Color.White;
+            this.Bills.Location = new System.Drawing.Point(-1, 266);
+            this.Bills.Name = "Bills";
+            this.Bills.Size = new System.Drawing.Size(197, 86);
+            this.Bills.TabIndex = 3;
+            this.Bills.Text = "Bills";
+            this.Bills.UseVisualStyleBackColor = false;
+            this.Bills.Click += new System.EventHandler(this.changeColor_Click);
             // 
             // user
             // 
@@ -194,6 +200,33 @@
             this.panel2.Size = new System.Drawing.Size(695, 567);
             this.panel2.TabIndex = 1;
             // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(6, 380);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(47, 45);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 8;
+            this.pictureBox6.TabStop = false;
+            // 
+            // button1
+            // 
+            this.button1.AutoSize = true;
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(3, 358);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(196, 86);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "Search";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // BookShop
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -213,6 +246,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -222,7 +256,7 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button logout;
-        private System.Windows.Forms.Button dashboard;
+        private System.Windows.Forms.Button Bills;
         private System.Windows.Forms.Button user;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button book;
@@ -231,6 +265,8 @@
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.Button button1;
     }
 }
 

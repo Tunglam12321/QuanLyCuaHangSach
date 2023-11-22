@@ -62,7 +62,7 @@ namespace QuanLyCuaHangSach
             user_dgv.Visible = false; dataGridView1.Visible = false; dataGridView2.Visible = true;
             int i = 0;
             int.TryParse(tb_timkiem.Text, out i);
-            adapt2 = new SqlDataAdapter(" select * from tblBills where clientname ='" + tb_timkiem.Text + "' or IDbills=" + i + "", con);
+            adapt2 = new SqlDataAdapter(" select * from tblBills where bookname ='" + tb_timkiem.Text + "' or IDbills=" + i + "", con);
             tblUser2.Clear();
             adapt2.Fill(tblUser2);
             dataGridView2.DataSource = tblUser2;

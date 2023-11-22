@@ -16,11 +16,8 @@ namespace QuanLyCuaHangSach
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-<<<<<<< HEAD
             Application.Run(new Timkiem());
-=======
-            Application.Run(new txtUser());
->>>>>>> 42d341059a293e58141427a7470ca8913a254ab7
+            //Application.Run(new txtUser());
         }
 
     }

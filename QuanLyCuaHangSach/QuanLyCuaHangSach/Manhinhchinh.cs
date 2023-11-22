@@ -23,7 +23,7 @@ namespace QuanLyCuaHangSach
             {
                 book.BackColor = Color.FromArgb(255, 192, 128);
                 user.BackColor = Color.FromArgb(255, 192, 128);
-                dashboard.BackColor = Color.FromArgb(255, 192, 128);
+                Bills.BackColor = Color.FromArgb(255, 192, 128);
                 logout.BackColor = Color.FromArgb(255, 192, 128);
                 pictureBox2.BackColor = Color.FromArgb(255, 192, 128);
                 pictureBox3.BackColor = Color.FromArgb(255, 192, 128);
@@ -40,7 +40,7 @@ namespace QuanLyCuaHangSach
                 {
                     hoveredButton.BackColor = Color.Green;
                     pictureBox3.BackColor = Color.Green;
-                    User user = new User();
+                    txtUser user = new txtUser();
                     user.Show();
                 }
                 if (hoveredButton.Name == "dashboard")
@@ -59,6 +59,11 @@ namespace QuanLyCuaHangSach
         }
 
         private void BookShop_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
         {
 
         }
