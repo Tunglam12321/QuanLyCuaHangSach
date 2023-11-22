@@ -31,6 +31,10 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+<<<<<<< HEAD
+=======
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Bills));
+>>>>>>> 522236faee8887168b8e946719de1b3536b07fd5
             this.book_dgv = new System.Windows.Forms.DataGridView();
             this.IDbook = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btitle = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -56,14 +60,20 @@
             this.label1 = new System.Windows.Forms.Label();
             this.saleoff_bill = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.bookbill_dgv = new System.Windows.Forms.DataGridView();
             this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.book = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.price = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.quantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SaleOff = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.total = new System.Windows.Forms.DataGridViewTextBoxColumn();
+<<<<<<< HEAD
+=======
+            this.printDocument1 = new System.Drawing.Printing.PrintDocument();
+            this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
+>>>>>>> 522236faee8887168b8e946719de1b3536b07fd5
             ((System.ComponentModel.ISupportInitialize)(this.book_dgv)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bookbill_dgv)).BeginInit();
             this.SuspendLayout();
             // 
             // book_dgv
@@ -88,11 +98,58 @@
             this.price_sell});
             this.book_dgv.GridColor = System.Drawing.SystemColors.Control;
             this.book_dgv.Location = new System.Drawing.Point(12, 350);
+<<<<<<< HEAD
             this.book_dgv.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+=======
+            this.book_dgv.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 522236faee8887168b8e946719de1b3536b07fd5
             this.book_dgv.Name = "book_dgv";
             this.book_dgv.RowHeadersWidth = 51;
             this.book_dgv.Size = new System.Drawing.Size(543, 282);
             this.book_dgv.TabIndex = 45;
+            this.book_dgv.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.book_dgv_CellClick);
+            // 
+            // IDbook
+            // 
+            this.IDbook.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.IDbook.HeaderText = "IDbook";
+            this.IDbook.MinimumWidth = 6;
+            this.IDbook.Name = "IDbook";
+            // 
+            // btitle
+            // 
+            this.btitle.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.btitle.HeaderText = "BTitle";
+            this.btitle.MinimumWidth = 6;
+            this.btitle.Name = "btitle";
+            // 
+            // author
+            // 
+            this.author.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.author.HeaderText = "Bauthor";
+            this.author.MinimumWidth = 6;
+            this.author.Name = "author";
+            // 
+            // category
+            // 
+            this.category.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.category.HeaderText = "Category";
+            this.category.MinimumWidth = 6;
+            this.category.Name = "category";
+            // 
+            // quantity_store
+            // 
+            this.quantity_store.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.quantity_store.HeaderText = "Quantity";
+            this.quantity_store.MinimumWidth = 6;
+            this.quantity_store.Name = "quantity_store";
+            // 
+            // price_sell
+            // 
+            this.price_sell.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.price_sell.HeaderText = "Price";
+            this.price_sell.MinimumWidth = 6;
+            this.price_sell.Name = "price_sell";
             // 
             // IDbook
             // 
@@ -143,7 +200,11 @@
             this.print_bill.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.print_bill.ForeColor = System.Drawing.Color.White;
             this.print_bill.Location = new System.Drawing.Point(728, 532);
+<<<<<<< HEAD
             this.print_bill.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+=======
+            this.print_bill.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 522236faee8887168b8e946719de1b3536b07fd5
             this.print_bill.Name = "print_bill";
             this.print_bill.Size = new System.Drawing.Size(100, 33);
             this.print_bill.TabIndex = 44;
@@ -170,12 +231,17 @@
             this.reset_bill.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.reset_bill.ForeColor = System.Drawing.Color.White;
             this.reset_bill.Location = new System.Drawing.Point(183, 281);
+<<<<<<< HEAD
             this.reset_bill.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+=======
+            this.reset_bill.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 522236faee8887168b8e946719de1b3536b07fd5
             this.reset_bill.Name = "reset_bill";
             this.reset_bill.Size = new System.Drawing.Size(100, 33);
             this.reset_bill.TabIndex = 39;
             this.reset_bill.Text = "Reset";
             this.reset_bill.UseVisualStyleBackColor = false;
+            this.reset_bill.Click += new System.EventHandler(this.reset_bill_Click);
             // 
             // addtobill
             // 
@@ -185,7 +251,11 @@
             this.addtobill.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addtobill.ForeColor = System.Drawing.Color.White;
             this.addtobill.Location = new System.Drawing.Point(45, 281);
+<<<<<<< HEAD
             this.addtobill.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+=======
+            this.addtobill.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 522236faee8887168b8e946719de1b3536b07fd5
             this.addtobill.Name = "addtobill";
             this.addtobill.Size = new System.Drawing.Size(121, 33);
             this.addtobill.TabIndex = 38;
@@ -208,7 +278,11 @@
             // 
             this.datepicker_bill.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.datepicker_bill.Location = new System.Drawing.Point(369, 235);
+<<<<<<< HEAD
             this.datepicker_bill.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+=======
+            this.datepicker_bill.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 522236faee8887168b8e946719de1b3536b07fd5
             this.datepicker_bill.Name = "datepicker_bill";
             this.datepicker_bill.Size = new System.Drawing.Size(107, 22);
             this.datepicker_bill.TabIndex = 34;
@@ -216,7 +290,11 @@
             // clientname_bill
             // 
             this.clientname_bill.Location = new System.Drawing.Point(12, 235);
+<<<<<<< HEAD
             this.clientname_bill.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+=======
+            this.clientname_bill.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 522236faee8887168b8e946719de1b3536b07fd5
             this.clientname_bill.Name = "clientname_bill";
             this.clientname_bill.Size = new System.Drawing.Size(132, 22);
             this.clientname_bill.TabIndex = 33;
@@ -224,7 +302,11 @@
             // price_bill
             // 
             this.price_bill.Location = new System.Drawing.Point(191, 235);
+<<<<<<< HEAD
             this.price_bill.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+=======
+            this.price_bill.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 522236faee8887168b8e946719de1b3536b07fd5
             this.price_bill.Name = "price_bill";
             this.price_bill.Size = new System.Drawing.Size(132, 22);
             this.price_bill.TabIndex = 32;
@@ -232,7 +314,11 @@
             // quantity_bill
             // 
             this.quantity_bill.Location = new System.Drawing.Point(191, 122);
+<<<<<<< HEAD
             this.quantity_bill.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+=======
+            this.quantity_bill.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 522236faee8887168b8e946719de1b3536b07fd5
             this.quantity_bill.Name = "quantity_bill";
             this.quantity_bill.Size = new System.Drawing.Size(132, 22);
             this.quantity_bill.TabIndex = 31;
@@ -240,7 +326,11 @@
             // bookname
             // 
             this.bookname.Location = new System.Drawing.Point(12, 122);
+<<<<<<< HEAD
             this.bookname.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+=======
+            this.bookname.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 522236faee8887168b8e946719de1b3536b07fd5
             this.bookname.Name = "bookname";
             this.bookname.Size = new System.Drawing.Size(132, 22);
             this.bookname.TabIndex = 30;
@@ -316,7 +406,11 @@
             // saleoff_bill
             // 
             this.saleoff_bill.Location = new System.Drawing.Point(369, 122);
+<<<<<<< HEAD
             this.saleoff_bill.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+=======
+            this.saleoff_bill.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 522236faee8887168b8e946719de1b3536b07fd5
             this.saleoff_bill.Name = "saleoff_bill";
             this.saleoff_bill.Size = new System.Drawing.Size(132, 22);
             this.saleoff_bill.TabIndex = 47;
@@ -332,10 +426,15 @@
             this.label4.TabIndex = 46;
             this.label4.Text = "Sale Off";
             // 
-            // dataGridView1
+            // bookbill_dgv
             // 
+<<<<<<< HEAD
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+=======
+            this.bookbill_dgv.BackgroundColor = System.Drawing.Color.White;
+            this.bookbill_dgv.BorderStyle = System.Windows.Forms.BorderStyle.None;
+>>>>>>> 522236faee8887168b8e946719de1b3536b07fd5
             dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle5.BackColor = System.Drawing.Color.Blue;
             dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -343,19 +442,34 @@
             dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+<<<<<<< HEAD
             this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+=======
+            this.bookbill_dgv.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            this.bookbill_dgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.bookbill_dgv.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+>>>>>>> 522236faee8887168b8e946719de1b3536b07fd5
             this.ID,
             this.book,
             this.price,
             this.quantity,
+            this.SaleOff,
             this.total});
+<<<<<<< HEAD
             this.dataGridView1.GridColor = System.Drawing.SystemColors.Control;
             this.dataGridView1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.dataGridView1.Location = new System.Drawing.Point(563, 122);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView1.Name = "dataGridView1";
+=======
+            this.bookbill_dgv.GridColor = System.Drawing.SystemColors.Control;
+            this.bookbill_dgv.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.bookbill_dgv.Location = new System.Drawing.Point(563, 122);
+            this.bookbill_dgv.Margin = new System.Windows.Forms.Padding(4);
+            this.bookbill_dgv.Name = "bookbill_dgv";
+>>>>>>> 522236faee8887168b8e946719de1b3536b07fd5
             dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle6.BackColor = System.Drawing.Color.Blue;
             dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -363,15 +477,25 @@
             dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+<<<<<<< HEAD
             this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.Size = new System.Drawing.Size(545, 282);
             this.dataGridView1.TabIndex = 48;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+=======
+            this.bookbill_dgv.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            this.bookbill_dgv.RowHeadersWidth = 51;
+            this.bookbill_dgv.Size = new System.Drawing.Size(545, 282);
+            this.bookbill_dgv.TabIndex = 48;
+            this.bookbill_dgv.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.bookbill_dgv.UserDeletingRow += new System.Windows.Forms.DataGridViewRowCancelEventHandler(this.bookbill_dgv_UserDeletingRow);
+>>>>>>> 522236faee8887168b8e946719de1b3536b07fd5
             // 
             // ID
             // 
             this.ID.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.ID.DataPropertyName = "ID";
             this.ID.HeaderText = "ID";
             this.ID.MinimumWidth = 6;
             this.ID.Name = "ID";
@@ -379,6 +503,7 @@
             // book
             // 
             this.book.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.book.DataPropertyName = "book";
             this.book.HeaderText = "Book";
             this.book.MinimumWidth = 6;
             this.book.Name = "book";
@@ -386,6 +511,7 @@
             // price
             // 
             this.price.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.price.DataPropertyName = "price";
             this.price.HeaderText = "Price";
             this.price.MinimumWidth = 6;
             this.price.Name = "price";
@@ -393,23 +519,55 @@
             // quantity
             // 
             this.quantity.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.quantity.DataPropertyName = "quantity";
             this.quantity.HeaderText = "Quantity";
             this.quantity.MinimumWidth = 6;
             this.quantity.Name = "quantity";
             // 
+            // SaleOff
+            // 
+            this.SaleOff.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.SaleOff.DataPropertyName = "SaleOff";
+            this.SaleOff.HeaderText = "SaleOff";
+            this.SaleOff.MinimumWidth = 6;
+            this.SaleOff.Name = "SaleOff";
+            // 
             // total
             // 
             this.total.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.total.DataPropertyName = "total";
             this.total.HeaderText = "Total";
             this.total.MinimumWidth = 6;
             this.total.Name = "total";
             // 
+<<<<<<< HEAD
+=======
+            // printDocument1
+            // 
+            this.printDocument1.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument1_PrintPage);
+            // 
+            // printPreviewDialog1
+            // 
+            this.printPreviewDialog1.AutoScrollMargin = new System.Drawing.Size(0, 0);
+            this.printPreviewDialog1.AutoScrollMinSize = new System.Drawing.Size(0, 0);
+            this.printPreviewDialog1.ClientSize = new System.Drawing.Size(400, 300);
+            this.printPreviewDialog1.Enabled = true;
+            this.printPreviewDialog1.Icon = ((System.Drawing.Icon)(resources.GetObject("printPreviewDialog1.Icon")));
+            this.printPreviewDialog1.Name = "printPreviewDialog1";
+            this.printPreviewDialog1.Visible = false;
+            // 
+>>>>>>> 522236faee8887168b8e946719de1b3536b07fd5
             // Bills
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(1139, 635);
             this.Controls.Add(this.dataGridView1);
+=======
+            this.ClientSize = new System.Drawing.Size(1139, 644);
+            this.Controls.Add(this.bookbill_dgv);
+>>>>>>> 522236faee8887168b8e946719de1b3536b07fd5
             this.Controls.Add(this.saleoff_bill);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.book_dgv);
@@ -429,11 +587,16 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+<<<<<<< HEAD
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+=======
+            this.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 522236faee8887168b8e946719de1b3536b07fd5
             this.Name = "Bills";
             this.Text = "Bills";
+            this.Load += new System.EventHandler(this.Bills_Load);
             ((System.ComponentModel.ISupportInitialize)(this.book_dgv)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bookbill_dgv)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -460,17 +623,20 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox saleoff_bill;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn book;
-        private System.Windows.Forms.DataGridViewTextBoxColumn price;
-        private System.Windows.Forms.DataGridViewTextBoxColumn quantity;
-        private System.Windows.Forms.DataGridViewTextBoxColumn total;
+        private System.Windows.Forms.DataGridView bookbill_dgv;
         private System.Windows.Forms.DataGridViewTextBoxColumn IDbook;
         private System.Windows.Forms.DataGridViewTextBoxColumn btitle;
         private System.Windows.Forms.DataGridViewTextBoxColumn author;
         private System.Windows.Forms.DataGridViewTextBoxColumn category;
         private System.Windows.Forms.DataGridViewTextBoxColumn quantity_store;
         private System.Windows.Forms.DataGridViewTextBoxColumn price_sell;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn book;
+        private System.Windows.Forms.DataGridViewTextBoxColumn price;
+        private System.Windows.Forms.DataGridViewTextBoxColumn quantity;
+        private System.Windows.Forms.DataGridViewTextBoxColumn SaleOff;
+        private System.Windows.Forms.DataGridViewTextBoxColumn total;
+        private System.Drawing.Printing.PrintDocument printDocument1;
+        private System.Windows.Forms.PrintPreviewDialog printPreviewDialog1;
     }
 }

@@ -11,7 +11,6 @@ E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug
 E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.BookShop.resources
 E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.Book.resources
 E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.Bills.resources
-E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.User.resources
 E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.Dashboard.resources
 D:\Quan-ly-cua-hang-sach\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.csproj.AssemblyReference.cache
 D:\Quan-ly-cua-hang-sach\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.csproj.SuggestedBindingRedirects.cache
@@ -46,7 +45,67 @@ C:\Users\TRONG\OneDrive\Desktop\tieuluan\QuanLyCuaHangSach\QuanLyCuaHangSach\Qua
 C:\Users\TRONG\OneDrive\Desktop\tieuluan\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.Timkiem.resources
 =======
 D:\Quan-ly-cua-hang-sach\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.txtUser.resources
+<<<<<<< HEAD
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.txtUser.resources
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\CrystalDecisions.ReportSource.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\CrystalDecisions.Shared.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.csproj.CopyComplete
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\Microsoft.ReportViewer.Common.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\Microsoft.ReportViewer.Design.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\Microsoft.SqlServer.Types.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\EnvDTE.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\stdole.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+E:\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+=======
 >>>>>>> 42d341059a293e58141427a7470ca8913a254ab7
+<<<<<<< HEAD
 C:\Users\TRONG\OneDrive\Desktop\tieuluan\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.txtUser.resources
 C:\Users\TRONG\OneDrive\Desktop\tieuluan\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\SqlServerTypes\x64\msvcr120.dll
 C:\Users\TRONG\OneDrive\Desktop\tieuluan\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
@@ -131,3 +190,6 @@ C:\Users\TRONG\OneDrive\Desktop\tieuluan\QuanLyCuaHangSach\QuanLyCuaHangSach\Qua
 C:\Users\TRONG\OneDrive\Desktop\tieuluan\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
 C:\Users\TRONG\OneDrive\Desktop\tieuluan\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
 C:\Users\TRONG\OneDrive\Desktop\tieuluan\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+=======
+>>>>>>> 7d69125cb0c2f0f753ff92031701c517271eca23
+>>>>>>> 522236faee8887168b8e946719de1b3536b07fd5
