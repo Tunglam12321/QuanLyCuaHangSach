@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Drawing.Printing;
 
 namespace QuanLyCuaHangSach
 {
@@ -16,6 +17,7 @@ namespace QuanLyCuaHangSach
     {
         SqlConnection Con=new SqlConnection(@"Data Source=MSI\\SQLEXPRESS;Initial Catalog=QL_Cua_Hang_Sach;User ID=sa;Password=1234");
         string conn = "Data Source=MSI\\SQLEXPRESS;Initial Catalog=QL_Cua_Hang_Sach;User ID=sa;Password=1234";
+ 
         public Bills()
         {
             InitializeComponent();
@@ -224,6 +226,47 @@ namespace QuanLyCuaHangSach
                 }
                 connection.Close();
             }
+        }
+
+        private void print_bill_Click(object sender, EventArgs e)
+        {
+            printDocument1.DefaultPageSettings.PaperSize = new System.Drawing.Printing.PaperSize("pprnm", 285, 600);
+            PrintDialog printDialog=new PrintDialog();
+            printDialog.Document= printDocument1;
+            if(printPreviewDialog1.ShowDialog()==DialogResult.OK)
+            {
+                printDocument1.Print();
+            }
+        }
+        int bookid, bookqty, bookprice, booktotal, booksaleoff, pos = 60;
+        string booktitle;
+        private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
+        {
+            e.Graphics.DrawString("Book Shop", new Font("Century Gothic", 12, FontStyle.Bold),Brushes.Red,new Point(80));
+            e.Graphics.DrawString("ID NAME PRICE QUANTITY SALEOFF TOTAL", new Font("Century Gothic",10,FontStyle.Bold),Brushes.Red,new Point(26,40));
+            foreach(BookItem bk in bookitems)
+            {
+                bookid = bk.STT;
+                booktitle = bk.Product;
+                bookprice = bk.price;
+                bookqty = bk.quantity;
+                booksaleoff = bk.saleoff;
+                booktotal = bk.total;
+                e.Graphics.DrawString("" + bookid, new Font("Century Gothic", 8, FontStyle.Bold), Brushes.Blue, new Point(26, pos));
+                e.Graphics.DrawString("" + booktitle, new Font("Century Gothic", 8, FontStyle.Bold), Brushes.Blue, new Point(45, pos));
+                e.Graphics.DrawString("" + bookprice, new Font("Century Gothic", 8, FontStyle.Bold), Brushes.Blue, new Point(120, pos));
+                e.Graphics.DrawString("" + bookqty, new Font("Century Gothic", 8, FontStyle.Bold), Brushes.Blue, new Point(160, pos));
+                e.Graphics.DrawString("" + booksaleoff, new Font("Century Gothic", 8, FontStyle.Bold), Brushes.Blue, new Point(200, pos));
+                e.Graphics.DrawString("" + booktotal, new Font("Century Gothic", 8, FontStyle.Bold), Brushes.Blue, new Point(235, pos));
+                pos = pos + 20;
+            }
+            e.Graphics.DrawString("Grand Total " + label9.Text, new Font("Century Gothic", 12, FontStyle.Bold), Brushes.Crimson, new Point(60, pos+50));
+            e.Graphics.DrawString("****************BookStore**************", new Font("Century Gothic", 10, FontStyle.Bold), Brushes.Crimson, new Point(40, pos+85));
+            bookbill_dgv.Rows.Clear();
+            bookbill_dgv.Refresh();
+            pos = 100;
+            label9.Text = "0";
+            bookitems.Clear();
         }
     }
 }
