@@ -55,15 +55,15 @@ namespace QuanLyCuaHangSach
             //Hiển thị các sách đã nhập
             string query = "select * from NhapSach";
             book_dgv.Columns.Add("Column1", "ID");
-            book_dgv.Columns.Add("Column1", "BTitle");
-            book_dgv.Columns.Add("Column1", "BAuthor");
-            book_dgv.Columns.Add("Column1", "BCategories");
-            book_dgv.Columns.Add("Column1", "Store");
-            book_dgv.Columns.Add("Column1", "NXB");
-            book_dgv.Columns.Add("Column1", "Quantity");
-            book_dgv.Columns.Add("Column1", "PriceImport");
-            book_dgv.Columns.Add("Column1", "PriceSell");
-            book_dgv.Columns.Add("Column1", "Date");
+            book_dgv.Columns.Add("Column2", "BTitle");
+            book_dgv.Columns.Add("Column3", "BAuthor");
+            book_dgv.Columns.Add("Column4", "BCategories");
+            book_dgv.Columns.Add("Column5", "Store");
+            book_dgv.Columns.Add("Column6", "NXB");
+            book_dgv.Columns.Add("Column7", "Quantity");
+            book_dgv.Columns.Add("Column8", "PriceImport");
+            book_dgv.Columns.Add("Column9", "PriceSell");
+            book_dgv.Columns.Add("Column10", "Date");
             using (SqlConnection connection = new SqlConnection(conn))
             {
                 connection.Open();
@@ -248,15 +248,15 @@ namespace QuanLyCuaHangSach
         private void booklist_cb_SelectedIndexChanged(object sender, EventArgs e)
         {
             book_dgv.Columns.Add("Column1", "ID");
-            book_dgv.Columns.Add("Column1", "BTitle");
-            book_dgv.Columns.Add("Column1", "BAuthor");
-            book_dgv.Columns.Add("Column1", "BCategories");
-            book_dgv.Columns.Add("Column1", "Store");
-            book_dgv.Columns.Add("Column1", "NXB");
-            book_dgv.Columns.Add("Column1", "Quantity");
-            book_dgv.Columns.Add("Column1", "PriceImport");
-            book_dgv.Columns.Add("Column1", "PriceSell");
-            book_dgv.Columns.Add("Column1", "Date");
+            book_dgv.Columns.Add("Column2", "BTitle");
+            book_dgv.Columns.Add("Column3", "BAuthor");
+            book_dgv.Columns.Add("Column4", "BCategories");
+            book_dgv.Columns.Add("Column5", "Store");
+            book_dgv.Columns.Add("Column6", "NXB");
+            book_dgv.Columns.Add("Column7", "Quantity");
+            book_dgv.Columns.Add("Column8", "PriceImport");
+            book_dgv.Columns.Add("Column9", "PriceSell");
+            book_dgv.Columns.Add("Column10", "Date");
             book_dgv.Rows.Clear();
             using (SqlConnection connection = new SqlConnection(conn))
             {
@@ -295,5 +295,10 @@ namespace QuanLyCuaHangSach
         {
             loadform();
         }
+
+
+
+
+
     }
 }

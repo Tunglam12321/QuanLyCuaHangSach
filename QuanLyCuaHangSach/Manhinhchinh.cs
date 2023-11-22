@@ -33,12 +33,15 @@ namespace QuanLyCuaHangSach
                 {
                     hoveredButton.BackColor = Color.Green;
                     pictureBox2.BackColor= Color.Green;
+                  
 
                 }
                 if (hoveredButton.Name == "user")
                 {
                     hoveredButton.BackColor = Color.Green;
                     pictureBox3.BackColor = Color.Green;
+                    txtUser user = new txtUser();
+                    user.Show();
                 }
                 if (hoveredButton.Name == "dashboard")
                 {

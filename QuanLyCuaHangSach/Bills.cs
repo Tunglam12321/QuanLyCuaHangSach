@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Drawing.Printing;
 
 namespace QuanLyCuaHangSach
 {
@@ -16,26 +17,23 @@ namespace QuanLyCuaHangSach
     {
         SqlConnection Con=new SqlConnection(@"Data Source=MSI\\SQLEXPRESS;Initial Catalog=QL_Cua_Hang_Sach;User ID=sa;Password=1234");
         string conn = "Data Source=MSI\\SQLEXPRESS;Initial Catalog=QL_Cua_Hang_Sach;User ID=sa;Password=1234";
+ 
         public Bills()
         {
             InitializeComponent();
         }
         List<string> list = new List<string>();
+        List<int> totallist = new List<int>();
+        List<BookItem> bookitems = new List<BookItem>();
         private void loadform()
         {
             book_dgv.Rows.Clear();
             //Hiển thị các sách đã nhập
             string query = "select * from NhapSach";
             int total = 0;
-            foreach(DataGridViewRow dataGridView1 in bookbill_dgv.Rows)
+            foreach(int a in totallist)
             {
-                if (!dataGridView1.IsNewRow)
-                {
-                    int tam = 0;
-                    int.TryParse(dataGridView1.Cells["total"].Value.ToString(), out tam);
-                    total += tam;
-                }
-                
+                total += a;
             }
             label9.Text = total.ToString();
             using (SqlConnection connection = new SqlConnection(conn))
@@ -139,7 +137,10 @@ namespace QuanLyCuaHangSach
                         float total = (float)soluong * gia*(1-(float)saleoff/100);
                         bookbill_dgv.Rows.Add(n+1,title,gia,soluong,saleoff,total);
                         n++;
+                        totallist.Add((int)total);
                         UpdateBook();
+                        BookItem a=new BookItem(n+1,title,gia,soluong,saleoff,(int)total);
+                        bookitems.Add(a);
 
                     }
                 }
@@ -175,12 +176,15 @@ namespace QuanLyCuaHangSach
                 int quan = 0;
                 int row = bookbill_dgv.SelectedRows.Count;
                 string title = "";
-                if(row>0 )
+                int gia_item = 0;
+                if (row>0 )
                 {
                     DataGridViewRow dataGridViewRow = bookbill_dgv.SelectedRows[0];
                     string quanstr = dataGridViewRow.Cells["quantity"].Value.ToString();
                     int.TryParse(quanstr, out quan);
                     title = dataGridViewRow.Cells["book"].Value.ToString();
+                    int.TryParse(dataGridViewRow.Cells["total"].Value.ToString(),out gia_item);
+                    totallist.Remove(gia_item);
                 }
                 int number = 0;
                 string query = "select quantity from NhapSach where Booktitle=@booktitle";
@@ -211,6 +215,7 @@ namespace QuanLyCuaHangSach
                         if (resut > 0)
                         {
                             MessageBox.Show("Đã bỏ sản phẩm ra khỏi giỏ");
+                            
                             loadform();
                         }
                         else
@@ -221,6 +226,109 @@ namespace QuanLyCuaHangSach
                 }
                 connection.Close();
             }
+        }
+
+        private void print_bill_Click(object sender, EventArgs e)
+        {
+            
+            if(clientname_bill.Text.Length > 0 && bookitems.Count > 0)
+            {
+                printPreviewDialog1.Document = printDocument1;
+                printDocument1.DefaultPageSettings.PaperSize = new System.Drawing.Printing.PaperSize("pprnm", 600, 285);
+                // Hiển thị PrintPreviewDialog
+                printPreviewDialog1.ShowDialog();
+                if (printPreviewDialog1.ShowDialog() == DialogResult.OK)
+                {
+                    printDocument1.Print();
+                    bookitems.Clear();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Hóa đơn chưa hoàn thành");
+            }
+            
+        }
+        int bookid, bookqty, bookprice, booktotal, booksaleoff, pos = 60;
+        string booktitle;
+        private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
+        {
+            e.Graphics.DrawString("Book Shop", new Font("Century Gothic", 12, FontStyle.Bold), Brushes.Red, new Point(80));
+            e.Graphics.DrawString("ID", new Font("Century Gothic", 10, FontStyle.Bold), Brushes.Red, new Point(26, 40));
+            e.Graphics.DrawString("NAME", new Font("Century Gothic", 10, FontStyle.Bold), Brushes.Red, new Point(45, 40));
+            e.Graphics.DrawString("PRICE", new Font("Century Gothic", 10, FontStyle.Bold), Brushes.Red, new Point(330, 40));
+            e.Graphics.DrawString("QUANTITY", new Font("Century Gothic", 10, FontStyle.Bold), Brushes.Red, new Point(380, 40));
+            e.Graphics.DrawString("SALEOFF", new Font("Century Gothic", 10, FontStyle.Bold), Brushes.Red, new Point(465, 40));
+            e.Graphics.DrawString("TOTAL", new Font("Century Gothic", 10, FontStyle.Bold), Brushes.Red, new Point(540, 40));
+            e.Graphics.DrawString("Client Name: "+clientname_bill.Text, new Font("Century Gothic", 10, FontStyle.Bold), Brushes.Red, new Point(26, 20));
+
+            foreach (BookItem bk in bookitems)
+            {
+                bookid = bk.STT;
+                booktitle = bk.Product;
+                bookprice = bk.price;
+                bookqty = bk.quantity;
+                booksaleoff = bk.saleoff;
+                booktotal = bk.total;
+                e.Graphics.DrawString("" + bookid, new Font("Century Gothic", 8, FontStyle.Bold), Brushes.Blue, new Point(26, pos));
+                e.Graphics.DrawString("" + booktitle, new Font("Century Gothic", 8, FontStyle.Bold), Brushes.Blue, new Point(45, pos));
+                e.Graphics.DrawString("" + bookprice, new Font("Century Gothic", 8, FontStyle.Bold), Brushes.Blue, new Point(330, pos));
+                e.Graphics.DrawString("" + bookqty, new Font("Century Gothic", 8, FontStyle.Bold), Brushes.Blue, new Point(380, pos));
+                e.Graphics.DrawString("" + booksaleoff, new Font("Century Gothic", 8, FontStyle.Bold), Brushes.Blue, new Point(465, pos));
+                e.Graphics.DrawString("" + booktotal, new Font("Century Gothic", 8, FontStyle.Bold), Brushes.Blue, new Point(540, pos));
+                pos = pos + 20;
+            }
+            e.Graphics.DrawString("Grand Total " + label9.Text, new Font("Century Gothic", 12, FontStyle.Bold), Brushes.Crimson, new Point(60, pos + 50));
+            e.Graphics.DrawString("*******BookStore*******", new Font("Century Gothic", 10, FontStyle.Bold), Brushes.Crimson, new Point(40, pos + 85));
+            e.Graphics.DrawString(datepicker_bill.Value.ToString(), new Font("Century Gothic", 10, FontStyle.Bold), Brushes.Crimson, new Point(80, pos + 120));
+
+            bookbill_dgv.Rows.Clear();
+            bookbill_dgv.Refresh();
+            pos = 100;
+            label9.Text = "0";
+
+            using (SqlConnection connection = new SqlConnection(conn))
+            {
+                connection.Open();
+                int id_current = 0;
+                string query1 = "select top 1 IDbills from Bills order by IDbills desc";
+                using (SqlCommand command1 = new SqlCommand(query1, connection))
+                {
+                    using (SqlDataReader reader1 = command1.ExecuteReader())
+                    {
+                        if (reader1.Read())
+                        {
+                            while (reader1.Read())
+                            {
+                                id_current = reader1.GetInt32(0);
+                                break;
+                            }
+                        }
+                    }
+
+                }
+                foreach (BookItem bo in bookitems)
+                {
+
+                    string query = "insert into Bills(IDbills,bookname,quantity,clientname,price,date_sell,sale_off) values(@idbill,@bookname,@quantity,@clientname,@price,@date_sell,@sale_off)";
+                    using (SqlCommand command = new SqlCommand(query, connection))
+                    {
+                        command.Parameters.AddWithValue("@idbill", id_current + 1);
+                        command.Parameters.AddWithValue("@bookname", bo.Product);
+                        command.Parameters.AddWithValue("@quantity", bo.quantity);
+                        command.Parameters.AddWithValue("@clientname", clientname_bill.Text);
+                        command.Parameters.AddWithValue("@price", bo.price);
+                        command.Parameters.AddWithValue("@date_sell", datepicker_bill.Value.ToString());
+                        command.Parameters.AddWithValue("@sale_off", bo.saleoff);
+                        int rowsAffected=command.ExecuteNonQuery();
+                        if (rowsAffected == 0)
+                        {
+                            MessageBox.Show("Lỗi lưu hóa đơn");
+                        }
+                    }
+                }
+            }
+            
         }
     }
 }

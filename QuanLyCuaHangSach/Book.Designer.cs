@@ -214,14 +214,13 @@
             this.save.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.save.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.save.ForeColor = System.Drawing.Color.White;
-            this.save.Location = new System.Drawing.Point(17, 188);
+            this.save.Location = new System.Drawing.Point(18, 188);
             this.save.Margin = new System.Windows.Forms.Padding(4);
             this.save.Name = "save";
             this.save.Size = new System.Drawing.Size(100, 33);
             this.save.TabIndex = 15;
             this.save.Text = "Save";
             this.save.UseVisualStyleBackColor = false;
-            this.save.Click += new System.EventHandler(this.save_Click);
             // 
             // edit
             // 
@@ -236,7 +235,6 @@
             this.edit.TabIndex = 16;
             this.edit.Text = "Edit";
             this.edit.UseVisualStyleBackColor = false;
-            this.edit.Click += new System.EventHandler(this.edit_Click);
             // 
             // delete
             // 
@@ -251,7 +249,6 @@
             this.delete.TabIndex = 17;
             this.delete.Text = "Delete";
             this.delete.UseVisualStyleBackColor = false;
-            this.delete.Click += new System.EventHandler(this.delete_Click);
             // 
             // reset
             // 
@@ -266,7 +263,6 @@
             this.reset.TabIndex = 18;
             this.reset.Text = "Reset";
             this.reset.UseVisualStyleBackColor = false;
-            this.reset.Click += new System.EventHandler(this.reset_Click);
             // 
             // label9
             // 
@@ -312,7 +308,7 @@
             this.book_dgv.Margin = new System.Windows.Forms.Padding(4);
             this.book_dgv.Name = "book_dgv";
             this.book_dgv.RowHeadersWidth = 51;
-            this.book_dgv.Size = new System.Drawing.Size(1105, 282);
+            this.book_dgv.Size = new System.Drawing.Size(1105, 228);
             this.book_dgv.TabIndex = 22;
             this.book_dgv.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.book_dgv_CellClick);
             // 
