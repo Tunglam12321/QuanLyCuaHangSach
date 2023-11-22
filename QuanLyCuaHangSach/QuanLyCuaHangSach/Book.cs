@@ -21,5 +21,25 @@ namespace QuanLyCuaHangSach
         {
 
         }
+
+        private void save_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void edit_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void delete_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void reset_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
