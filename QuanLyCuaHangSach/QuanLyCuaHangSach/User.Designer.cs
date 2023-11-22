@@ -1,6 +1,6 @@
 ﻿namespace QuanLyCuaHangSach
 {
-    partial class User
+    partial class txtUser
     {
         /// <summary>
         /// Required designer variable.
@@ -28,31 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.book_dgv = new System.Windows.Forms.DataGridView();
+            this.user_dgv = new System.Windows.Forms.DataGridView();
             this.label9 = new System.Windows.Forms.Label();
             this.reset = new System.Windows.Forms.Button();
             this.delete = new System.Windows.Forms.Button();
             this.edit = new System.Windows.Forms.Button();
             this.save = new System.Windows.Forms.Button();
-            this.quantity = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.author = new System.Windows.Forms.TextBox();
-            this.booktitle = new System.Windows.Forms.TextBox();
+            this.txtAddress = new System.Windows.Forms.TextBox();
+            this.txtPassword = new System.Windows.Forms.TextBox();
+            this.txtPhone = new System.Windows.Forms.TextBox();
+            this.txtUsername = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.book_dgv)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.user_dgv)).BeginInit();
             this.SuspendLayout();
             // 
-            // book_dgv
+            // user_dgv
             // 
-            this.book_dgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.book_dgv.Location = new System.Drawing.Point(15, 240);
-            this.book_dgv.Name = "book_dgv";
-            this.book_dgv.Size = new System.Drawing.Size(829, 272);
-            this.book_dgv.TabIndex = 45;
+            this.user_dgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.user_dgv.Location = new System.Drawing.Point(15, 240);
+            this.user_dgv.Name = "user_dgv";
+            this.user_dgv.Size = new System.Drawing.Size(829, 272);
+            this.user_dgv.TabIndex = 45;
+            this.user_dgv.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.user_dgv_CellClick);
             // 
             // label9
             // 
@@ -77,6 +78,7 @@
             this.reset.TabIndex = 41;
             this.reset.Text = "Reset";
             this.reset.UseVisualStyleBackColor = false;
+            this.reset.Click += new System.EventHandler(this.reset_Click);
             // 
             // delete
             // 
@@ -90,6 +92,7 @@
             this.delete.TabIndex = 40;
             this.delete.Text = "Delete";
             this.delete.UseVisualStyleBackColor = false;
+            this.delete.Click += new System.EventHandler(this.delete_Click);
             // 
             // edit
             // 
@@ -103,6 +106,7 @@
             this.edit.TabIndex = 39;
             this.edit.Text = "Edit";
             this.edit.UseVisualStyleBackColor = false;
+            this.edit.Click += new System.EventHandler(this.edit_Click);
             // 
             // save
             // 
@@ -117,34 +121,36 @@
             this.save.TabIndex = 38;
             this.save.Text = "Save";
             this.save.UseVisualStyleBackColor = false;
+            this.save.Click += new System.EventHandler(this.save_Click);
             // 
-            // quantity
+            // txtAddress
             // 
-            this.quantity.Location = new System.Drawing.Point(462, 104);
-            this.quantity.Name = "quantity";
-            this.quantity.Size = new System.Drawing.Size(140, 20);
-            this.quantity.TabIndex = 33;
+            this.txtAddress.Location = new System.Drawing.Point(462, 104);
+            this.txtAddress.Name = "txtAddress";
+            this.txtAddress.Size = new System.Drawing.Size(140, 20);
+            this.txtAddress.TabIndex = 33;
             // 
-            // textBox3
+            // txtPassword
             // 
-            this.textBox3.Location = new System.Drawing.Point(679, 104);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(136, 20);
-            this.textBox3.TabIndex = 32;
+            this.txtPassword.Location = new System.Drawing.Point(679, 104);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.Size = new System.Drawing.Size(136, 20);
+            this.txtPassword.TabIndex = 32;
             // 
-            // author
+            // txtPhone
             // 
-            this.author.Location = new System.Drawing.Point(259, 104);
-            this.author.Name = "author";
-            this.author.Size = new System.Drawing.Size(143, 20);
-            this.author.TabIndex = 31;
+            this.txtPhone.Location = new System.Drawing.Point(259, 104);
+            this.txtPhone.Name = "txtPhone";
+            this.txtPhone.Size = new System.Drawing.Size(143, 20);
+            this.txtPhone.TabIndex = 31;
+            this.txtPhone.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ChiNhapSo_KeyPress);
             // 
-            // booktitle
+            // txtUsername
             // 
-            this.booktitle.Location = new System.Drawing.Point(15, 104);
-            this.booktitle.Name = "booktitle";
-            this.booktitle.Size = new System.Drawing.Size(139, 20);
-            this.booktitle.TabIndex = 30;
+            this.txtUsername.Location = new System.Drawing.Point(15, 104);
+            this.txtUsername.Name = "txtUsername";
+            this.txtUsername.Size = new System.Drawing.Size(139, 20);
+            this.txtUsername.TabIndex = 30;
             // 
             // label6
             // 
@@ -198,29 +204,30 @@
             this.label1.TabIndex = 23;
             this.label1.Text = "USER";
             // 
-            // User
+            // txtUser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(857, 522);
-            this.Controls.Add(this.book_dgv);
+            this.Controls.Add(this.user_dgv);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.reset);
             this.Controls.Add(this.delete);
             this.Controls.Add(this.edit);
             this.Controls.Add(this.save);
-            this.Controls.Add(this.quantity);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.author);
-            this.Controls.Add(this.booktitle);
+            this.Controls.Add(this.txtAddress);
+            this.Controls.Add(this.txtPassword);
+            this.Controls.Add(this.txtPhone);
+            this.Controls.Add(this.txtUsername);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "User";
+            this.Name = "txtUser";
             this.Text = "User";
-            ((System.ComponentModel.ISupportInitialize)(this.book_dgv)).EndInit();
+            this.Load += new System.EventHandler(this.User_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.user_dgv)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -228,16 +235,16 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView book_dgv;
+        private System.Windows.Forms.DataGridView user_dgv;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button reset;
         private System.Windows.Forms.Button delete;
         private System.Windows.Forms.Button edit;
         private System.Windows.Forms.Button save;
-        private System.Windows.Forms.TextBox quantity;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox author;
-        private System.Windows.Forms.TextBox booktitle;
+        private System.Windows.Forms.TextBox txtAddress;
+        private System.Windows.Forms.TextBox txtPassword;
+        private System.Windows.Forms.TextBox txtPhone;
+        private System.Windows.Forms.TextBox txtUsername;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label3;
