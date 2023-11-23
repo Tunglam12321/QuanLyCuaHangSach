@@ -20,7 +20,7 @@ namespace QuanLyCuaHangSach
             InitializeComponent();
         }
 
-        SqlConnection con = new SqlConnection("server=ADMIN\\SLTP;" + "uid=tk1;pwd=1;" + "database = QL_Cua_Hang_Sach");
+        SqlConnection con = new SqlConnection(@"Data Source = MSI\SQLEXPRESS; Initial Catalog = QLCHS; User ID = minhtrong; Password=quynhon");
         SqlCommand cmd;
         SqlDataAdapter adapt;
         int ID = 0;

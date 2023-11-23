@@ -21,5 +21,10 @@ namespace QuanLyCuaHangSach
         {
 
         }
+
+        private void save_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

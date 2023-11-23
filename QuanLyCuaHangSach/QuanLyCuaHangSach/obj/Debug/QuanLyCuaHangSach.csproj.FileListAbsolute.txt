@@ -28,3 +28,18 @@ D:\Quan-ly-cua-hang-sach\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\b
 D:\Quan-ly-cua-hang-sach\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\QuanLyCuaHangSach.exe
 D:\Quan-ly-cua-hang-sach\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\QuanLyCuaHangSach.pdb
 D:\Quan-ly-cua-hang-sach\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.txtUser.resources
+C:\Users\TRONG\OneDrive\Desktop\thuc tạo nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\QuanLyCuaHangSach.exe.config
+C:\Users\TRONG\OneDrive\Desktop\thuc tạo nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\QuanLyCuaHangSach.exe
+C:\Users\TRONG\OneDrive\Desktop\thuc tạo nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\QuanLyCuaHangSach.pdb
+C:\Users\TRONG\OneDrive\Desktop\thuc tạo nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.csproj.AssemblyReference.cache
+C:\Users\TRONG\OneDrive\Desktop\thuc tạo nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.csproj.SuggestedBindingRedirects.cache
+C:\Users\TRONG\OneDrive\Desktop\thuc tạo nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.Bills.resources
+C:\Users\TRONG\OneDrive\Desktop\thuc tạo nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.Book.resources
+C:\Users\TRONG\OneDrive\Desktop\thuc tạo nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.Dashboard.resources
+C:\Users\TRONG\OneDrive\Desktop\thuc tạo nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.BookShop.resources
+C:\Users\TRONG\OneDrive\Desktop\thuc tạo nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.Properties.Resources.resources
+C:\Users\TRONG\OneDrive\Desktop\thuc tạo nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.txtUser.resources
+C:\Users\TRONG\OneDrive\Desktop\thuc tạo nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.csproj.GenerateResource.cache
+C:\Users\TRONG\OneDrive\Desktop\thuc tạo nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.csproj.CoreCompileInputs.cache
+C:\Users\TRONG\OneDrive\Desktop\thuc tạo nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.exe
+C:\Users\TRONG\OneDrive\Desktop\thuc tạo nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.pdb
