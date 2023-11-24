@@ -25,7 +25,11 @@ namespace QuanLyCuaHangSach
         
         private void tbnLogin_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD:QuanLyCuaHangSach_chuan/Login.cs
             SqlConnection con = new SqlConnection(@"Data Source=MSI\SQLEXPRESS;Initial Catalog=QL_Cua_Hang_Sach;Persist Security Info=True;User ID=sa;Password=1234");
+=======
+            SqlConnection con = new SqlConnection(@"Data Source=admin;Initial Catalog=Test;Integrated Security=True");
+>>>>>>> 2b2784368ad7f42ff301269e3f5799e24017dbfe:QuanLyCuaHangSach/QuanLyCuaHangSach/Login.cs
             try
             {
                 con.Open();
@@ -57,10 +61,13 @@ namespace QuanLyCuaHangSach
                 Application.Exit();
             }
         }
+<<<<<<< HEAD:QuanLyCuaHangSach_chuan/Login.cs
 
         private void Login_Load(object sender, EventArgs e)
         {
 
         }
+=======
+>>>>>>> 2b2784368ad7f42ff301269e3f5799e24017dbfe:QuanLyCuaHangSach/QuanLyCuaHangSach/Login.cs
     }
 }

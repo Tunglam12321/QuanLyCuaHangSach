@@ -165,11 +165,19 @@
             // 
             // price_im
             // 
+<<<<<<< HEAD:QuanLyCuaHangSach_chuan/Book.Designer.cs
             this.price_im.Location = new System.Drawing.Point(683, 128);
             this.price_im.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.price_im.Name = "price_im";
             this.price_im.Size = new System.Drawing.Size(132, 22);
             this.price_im.TabIndex = 9;
+=======
+            this.textBox3.Location = new System.Drawing.Point(683, 128);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(132, 22);
+            this.textBox3.TabIndex = 9;
+>>>>>>> 2b2784368ad7f42ff301269e3f5799e24017dbfe:QuanLyCuaHangSach/QuanLyCuaHangSach/Book.Designer.cs
             // 
             // quantity
             // 
@@ -199,11 +207,19 @@
             // 
             // store
             // 
+<<<<<<< HEAD:QuanLyCuaHangSach_chuan/Book.Designer.cs
             this.store.Location = new System.Drawing.Point(845, 128);
             this.store.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.store.Name = "store";
             this.store.Size = new System.Drawing.Size(132, 22);
             this.store.TabIndex = 14;
+=======
+            this.textBox5.Location = new System.Drawing.Point(845, 128);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(132, 22);
+            this.textBox5.TabIndex = 14;
+>>>>>>> 2b2784368ad7f42ff301269e3f5799e24017dbfe:QuanLyCuaHangSach/QuanLyCuaHangSach/Book.Designer.cs
             // 
             // label8
             // 
@@ -317,6 +333,7 @@
             // book_dgv
             // 
             this.book_dgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+<<<<<<< HEAD:QuanLyCuaHangSach_chuan/Book.Designer.cs
             this.book_dgv.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
             this.Column2,
@@ -329,6 +346,9 @@
             this.Column9,
             this.Column10});
             this.book_dgv.Location = new System.Drawing.Point(17, 338);
+=======
+            this.book_dgv.Location = new System.Drawing.Point(16, 348);
+>>>>>>> 2b2784368ad7f42ff301269e3f5799e24017dbfe:QuanLyCuaHangSach/QuanLyCuaHangSach/Book.Designer.cs
             this.book_dgv.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.book_dgv.Name = "book_dgv";
             this.book_dgv.RowHeadersWidth = 51;

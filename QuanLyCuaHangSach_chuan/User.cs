@@ -20,7 +20,11 @@ namespace QuanLyCuaHangSach
             InitializeComponent();
         }
 
+<<<<<<< HEAD:QuanLyCuaHangSach_chuan/User.cs
         SqlConnection con = new SqlConnection(@"Data Source=MSI\SQLEXPRESS;Initial Catalog=QL_Cua_Hang_Sach;Persist Security Info=True;User ID=sa;Password=1234");
+=======
+        SqlConnection con = new SqlConnection(@"Data Source = MSI\SQLEXPRESS; Initial Catalog = QLCHS; User ID = minhtrong; Password=quynhon");
+>>>>>>> 2b2784368ad7f42ff301269e3f5799e24017dbfe:QuanLyCuaHangSach/QuanLyCuaHangSach/User.cs
         SqlCommand cmd;
         SqlDataAdapter adapt;
         int ID = 0;

@@ -64,8 +64,11 @@
             this.quantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.SaleOff = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.total = new System.Windows.Forms.DataGridViewTextBoxColumn();
+<<<<<<< HEAD:QuanLyCuaHangSach_chuan/Bills.Designer.cs
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
+=======
+>>>>>>> 2b2784368ad7f42ff301269e3f5799e24017dbfe:QuanLyCuaHangSach/QuanLyCuaHangSach/Bills.Designer.cs
             ((System.ComponentModel.ISupportInitialize)(this.book_dgv)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bookbill_dgv)).BeginInit();
             this.SuspendLayout();
@@ -92,12 +95,58 @@
             this.price_sell});
             this.book_dgv.GridColor = System.Drawing.SystemColors.Control;
             this.book_dgv.Location = new System.Drawing.Point(12, 350);
+<<<<<<< HEAD:QuanLyCuaHangSach_chuan/Bills.Designer.cs
             this.book_dgv.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.book_dgv.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> 2b2784368ad7f42ff301269e3f5799e24017dbfe:QuanLyCuaHangSach/QuanLyCuaHangSach/Bills.Designer.cs
             this.book_dgv.Name = "book_dgv";
             this.book_dgv.RowHeadersWidth = 51;
             this.book_dgv.Size = new System.Drawing.Size(543, 282);
             this.book_dgv.TabIndex = 45;
             this.book_dgv.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.book_dgv_CellClick);
+            // 
+            // IDbook
+            // 
+            this.IDbook.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.IDbook.HeaderText = "IDbook";
+            this.IDbook.MinimumWidth = 6;
+            this.IDbook.Name = "IDbook";
+            // 
+            // btitle
+            // 
+            this.btitle.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.btitle.HeaderText = "BTitle";
+            this.btitle.MinimumWidth = 6;
+            this.btitle.Name = "btitle";
+            // 
+            // author
+            // 
+            this.author.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.author.HeaderText = "Bauthor";
+            this.author.MinimumWidth = 6;
+            this.author.Name = "author";
+            // 
+            // category
+            // 
+            this.category.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.category.HeaderText = "Category";
+            this.category.MinimumWidth = 6;
+            this.category.Name = "category";
+            // 
+            // quantity_store
+            // 
+            this.quantity_store.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.quantity_store.HeaderText = "Quantity";
+            this.quantity_store.MinimumWidth = 6;
+            this.quantity_store.Name = "quantity_store";
+            // 
+            // price_sell
+            // 
+            this.price_sell.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.price_sell.HeaderText = "Price";
+            this.price_sell.MinimumWidth = 6;
+            this.price_sell.Name = "price_sell";
             // 
             // IDbook
             // 
@@ -148,7 +197,11 @@
             this.print_bill.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.print_bill.ForeColor = System.Drawing.Color.White;
             this.print_bill.Location = new System.Drawing.Point(728, 532);
+<<<<<<< HEAD:QuanLyCuaHangSach_chuan/Bills.Designer.cs
             this.print_bill.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.print_bill.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> 2b2784368ad7f42ff301269e3f5799e24017dbfe:QuanLyCuaHangSach/QuanLyCuaHangSach/Bills.Designer.cs
             this.print_bill.Name = "print_bill";
             this.print_bill.Size = new System.Drawing.Size(100, 33);
             this.print_bill.TabIndex = 44;
@@ -175,7 +228,11 @@
             this.reset_bill.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.reset_bill.ForeColor = System.Drawing.Color.White;
             this.reset_bill.Location = new System.Drawing.Point(183, 281);
+<<<<<<< HEAD:QuanLyCuaHangSach_chuan/Bills.Designer.cs
             this.reset_bill.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.reset_bill.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> 2b2784368ad7f42ff301269e3f5799e24017dbfe:QuanLyCuaHangSach/QuanLyCuaHangSach/Bills.Designer.cs
             this.reset_bill.Name = "reset_bill";
             this.reset_bill.Size = new System.Drawing.Size(100, 33);
             this.reset_bill.TabIndex = 39;
@@ -191,7 +248,11 @@
             this.addtobill.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addtobill.ForeColor = System.Drawing.Color.White;
             this.addtobill.Location = new System.Drawing.Point(45, 281);
+<<<<<<< HEAD:QuanLyCuaHangSach_chuan/Bills.Designer.cs
             this.addtobill.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.addtobill.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> 2b2784368ad7f42ff301269e3f5799e24017dbfe:QuanLyCuaHangSach/QuanLyCuaHangSach/Bills.Designer.cs
             this.addtobill.Name = "addtobill";
             this.addtobill.Size = new System.Drawing.Size(121, 33);
             this.addtobill.TabIndex = 38;
@@ -214,7 +275,11 @@
             // 
             this.datepicker_bill.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.datepicker_bill.Location = new System.Drawing.Point(369, 235);
+<<<<<<< HEAD:QuanLyCuaHangSach_chuan/Bills.Designer.cs
             this.datepicker_bill.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.datepicker_bill.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> 2b2784368ad7f42ff301269e3f5799e24017dbfe:QuanLyCuaHangSach/QuanLyCuaHangSach/Bills.Designer.cs
             this.datepicker_bill.Name = "datepicker_bill";
             this.datepicker_bill.Size = new System.Drawing.Size(107, 22);
             this.datepicker_bill.TabIndex = 34;
@@ -222,7 +287,11 @@
             // clientname_bill
             // 
             this.clientname_bill.Location = new System.Drawing.Point(12, 235);
+<<<<<<< HEAD:QuanLyCuaHangSach_chuan/Bills.Designer.cs
             this.clientname_bill.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.clientname_bill.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> 2b2784368ad7f42ff301269e3f5799e24017dbfe:QuanLyCuaHangSach/QuanLyCuaHangSach/Bills.Designer.cs
             this.clientname_bill.Name = "clientname_bill";
             this.clientname_bill.Size = new System.Drawing.Size(132, 22);
             this.clientname_bill.TabIndex = 33;
@@ -230,7 +299,11 @@
             // price_bill
             // 
             this.price_bill.Location = new System.Drawing.Point(191, 235);
+<<<<<<< HEAD:QuanLyCuaHangSach_chuan/Bills.Designer.cs
             this.price_bill.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.price_bill.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> 2b2784368ad7f42ff301269e3f5799e24017dbfe:QuanLyCuaHangSach/QuanLyCuaHangSach/Bills.Designer.cs
             this.price_bill.Name = "price_bill";
             this.price_bill.Size = new System.Drawing.Size(132, 22);
             this.price_bill.TabIndex = 32;
@@ -238,7 +311,11 @@
             // quantity_bill
             // 
             this.quantity_bill.Location = new System.Drawing.Point(191, 122);
+<<<<<<< HEAD:QuanLyCuaHangSach_chuan/Bills.Designer.cs
             this.quantity_bill.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.quantity_bill.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> 2b2784368ad7f42ff301269e3f5799e24017dbfe:QuanLyCuaHangSach/QuanLyCuaHangSach/Bills.Designer.cs
             this.quantity_bill.Name = "quantity_bill";
             this.quantity_bill.Size = new System.Drawing.Size(132, 22);
             this.quantity_bill.TabIndex = 31;
@@ -246,7 +323,11 @@
             // bookname
             // 
             this.bookname.Location = new System.Drawing.Point(12, 122);
+<<<<<<< HEAD:QuanLyCuaHangSach_chuan/Bills.Designer.cs
             this.bookname.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.bookname.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> 2b2784368ad7f42ff301269e3f5799e24017dbfe:QuanLyCuaHangSach/QuanLyCuaHangSach/Bills.Designer.cs
             this.bookname.Name = "bookname";
             this.bookname.Size = new System.Drawing.Size(132, 22);
             this.bookname.TabIndex = 30;
@@ -322,7 +403,11 @@
             // saleoff_bill
             // 
             this.saleoff_bill.Location = new System.Drawing.Point(369, 122);
+<<<<<<< HEAD:QuanLyCuaHangSach_chuan/Bills.Designer.cs
             this.saleoff_bill.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.saleoff_bill.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> 2b2784368ad7f42ff301269e3f5799e24017dbfe:QuanLyCuaHangSach/QuanLyCuaHangSach/Bills.Designer.cs
             this.saleoff_bill.Name = "saleoff_bill";
             this.saleoff_bill.Size = new System.Drawing.Size(132, 22);
             this.saleoff_bill.TabIndex = 47;
@@ -358,6 +443,7 @@
             this.quantity,
             this.SaleOff,
             this.total});
+<<<<<<< HEAD:QuanLyCuaHangSach_chuan/Bills.Designer.cs
             this.bookbill_dgv.GridColor = System.Drawing.SystemColors.Control;
             this.bookbill_dgv.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.bookbill_dgv.Location = new System.Drawing.Point(563, 122);
@@ -376,11 +462,34 @@
             this.bookbill_dgv.TabIndex = 48;
             this.bookbill_dgv.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             this.bookbill_dgv.UserDeletingRow += new System.Windows.Forms.DataGridViewRowCancelEventHandler(this.bookbill_dgv_UserDeletingRow);
+=======
+            this.dataGridView1.GridColor = System.Drawing.SystemColors.Control;
+            this.dataGridView1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.dataGridView1.Location = new System.Drawing.Point(563, 122);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Name = "dataGridView1";
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.Blue;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.Size = new System.Drawing.Size(545, 282);
+            this.dataGridView1.TabIndex = 48;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+>>>>>>> 2b2784368ad7f42ff301269e3f5799e24017dbfe:QuanLyCuaHangSach/QuanLyCuaHangSach/Bills.Designer.cs
             // 
             // ID
             // 
             this.ID.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+<<<<<<< HEAD:QuanLyCuaHangSach_chuan/Bills.Designer.cs
             this.ID.HeaderText = "STT";
+=======
+            this.ID.HeaderText = "ID";
+>>>>>>> 2b2784368ad7f42ff301269e3f5799e24017dbfe:QuanLyCuaHangSach/QuanLyCuaHangSach/Bills.Designer.cs
             this.ID.MinimumWidth = 6;
             this.ID.Name = "ID";
             // 
@@ -419,6 +528,7 @@
             this.total.MinimumWidth = 6;
             this.total.Name = "total";
             // 
+<<<<<<< HEAD:QuanLyCuaHangSach_chuan/Bills.Designer.cs
             // printDocument1
             // 
             this.printDocument1.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument1_PrintPage);
@@ -433,12 +543,18 @@
             this.printPreviewDialog1.Name = "printPreviewDialog1";
             this.printPreviewDialog1.Visible = false;
             // 
+=======
+>>>>>>> 2b2784368ad7f42ff301269e3f5799e24017dbfe:QuanLyCuaHangSach/QuanLyCuaHangSach/Bills.Designer.cs
             // Bills
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1139, 635);
+<<<<<<< HEAD:QuanLyCuaHangSach_chuan/Bills.Designer.cs
             this.Controls.Add(this.bookbill_dgv);
+=======
+            this.Controls.Add(this.dataGridView1);
+>>>>>>> 2b2784368ad7f42ff301269e3f5799e24017dbfe:QuanLyCuaHangSach/QuanLyCuaHangSach/Bills.Designer.cs
             this.Controls.Add(this.saleoff_bill);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.book_dgv);
@@ -458,7 +574,11 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+<<<<<<< HEAD:QuanLyCuaHangSach_chuan/Bills.Designer.cs
             this.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+>>>>>>> 2b2784368ad7f42ff301269e3f5799e24017dbfe:QuanLyCuaHangSach/QuanLyCuaHangSach/Bills.Designer.cs
             this.Name = "Bills";
             this.Text = "Bills";
             this.Load += new System.EventHandler(this.Bills_Load);
