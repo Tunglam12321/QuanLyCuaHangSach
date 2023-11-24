@@ -25,7 +25,7 @@ namespace QuanLyCuaHangSach
         
         private void tbnLogin_Click(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection("server=ADMIN\\SLTP;" + "uid=tk1;pwd=1;" + "database = QL_Cua_Hang_Sach");
+            SqlConnection con = new SqlConnection(@"Data Source=admin;Initial Catalog=Test;Integrated Security=True");
             try
             {
                 con.Open();
