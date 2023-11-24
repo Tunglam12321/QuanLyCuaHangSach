@@ -28,6 +28,24 @@ D:\Quan-ly-cua-hang-sach\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\b
 D:\Quan-ly-cua-hang-sach\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\QuanLyCuaHangSach.exe
 D:\Quan-ly-cua-hang-sach\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\QuanLyCuaHangSach.pdb
 D:\Quan-ly-cua-hang-sach\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.txtUser.resources
+<<<<<<< HEAD
+C:\Users\Admin\Desktop\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Desktop\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.Bills.resources
+C:\Users\Admin\Desktop\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.Book.resources
+C:\Users\Admin\Desktop\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.Dashboard.resources
+C:\Users\Admin\Desktop\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.Login.resources
+C:\Users\Admin\Desktop\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.BookShop.resources
+C:\Users\Admin\Desktop\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.Properties.Resources.resources
+C:\Users\Admin\Desktop\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.txtUser.resources
+C:\Users\Admin\Desktop\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.exe
+C:\Users\Admin\Desktop\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.pdb
+C:\Users\Admin\Desktop\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\QuanLyCuaHangSach.exe.config
+C:\Users\Admin\Desktop\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\QuanLyCuaHangSach.exe
+C:\Users\Admin\Desktop\thuc tap nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\QuanLyCuaHangSach.pdb
+=======
 C:\Users\TRONG\OneDrive\Desktop\thuc tạo nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\QuanLyCuaHangSach.exe.config
 C:\Users\TRONG\OneDrive\Desktop\thuc tạo nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\QuanLyCuaHangSach.exe
 C:\Users\TRONG\OneDrive\Desktop\thuc tạo nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\QuanLyCuaHangSach.pdb
@@ -43,3 +61,4 @@ C:\Users\TRONG\OneDrive\Desktop\thuc tạo nhom\QuanLyCuaHangSach\QuanLyCuaHangS
 C:\Users\TRONG\OneDrive\Desktop\thuc tạo nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.csproj.CoreCompileInputs.cache
 C:\Users\TRONG\OneDrive\Desktop\thuc tạo nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.exe
 C:\Users\TRONG\OneDrive\Desktop\thuc tạo nhom\QuanLyCuaHangSach\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.pdb
+>>>>>>> d6fef2d46f92e7b1809edb809c43440c3e196072
