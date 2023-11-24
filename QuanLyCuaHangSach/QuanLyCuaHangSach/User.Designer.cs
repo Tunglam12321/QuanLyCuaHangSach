@@ -53,6 +53,7 @@
             this.user_dgv.Name = "user_dgv";
             this.user_dgv.Size = new System.Drawing.Size(829, 272);
             this.user_dgv.TabIndex = 45;
+            this.user_dgv.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.user_dgv_CellClick);
             // 
             // label9
             // 
@@ -77,6 +78,7 @@
             this.reset.TabIndex = 41;
             this.reset.Text = "Reset";
             this.reset.UseVisualStyleBackColor = false;
+            this.reset.Click += new System.EventHandler(this.reset_Click);
             // 
             // delete
             // 
@@ -90,6 +92,7 @@
             this.delete.TabIndex = 40;
             this.delete.Text = "Delete";
             this.delete.UseVisualStyleBackColor = false;
+            this.delete.Click += new System.EventHandler(this.delete_Click);
             // 
             // edit
             // 
@@ -103,6 +106,7 @@
             this.edit.TabIndex = 39;
             this.edit.Text = "Edit";
             this.edit.UseVisualStyleBackColor = false;
+            this.edit.Click += new System.EventHandler(this.edit_Click);
             // 
             // save
             // 
@@ -139,6 +143,7 @@
             this.txtPhone.Name = "txtPhone";
             this.txtPhone.Size = new System.Drawing.Size(143, 20);
             this.txtPhone.TabIndex = 31;
+            this.txtPhone.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ChiNhapSo_KeyPress);
             // 
             // txtUsername
             // 
